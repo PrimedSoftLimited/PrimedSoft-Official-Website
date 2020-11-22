@@ -1,0 +1,245 @@
+
+body {
+    background: white;
+    color: #381c08;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+button:focus,
+select:focus,
+.uneditable-input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: 0 none !important;
+}
+.input-class:focus {
+  border-color:#d61545 !important;
+}
+
+.scroller{
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(185, 184, 184);
+}
+.scroller::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scroller::-webkit-scrollbar-track {
+  background:  rgb(185, 184, 184);
+  border-radius: 10px;
+  display: none;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  color: black;
+  border-radius: 10px;
+  background:  rgb(185, 184, 184);
+}
+.scroller::-webkit-scrollbar-thumb:hover {
+  background:  white;
+  border-color: #3f3d56;
+  border-radius: 10px;
+}
+
+.particles-js-canvas-el {
+    position: absolute !important;
+    top: 0 !important;
+    pointer-events: none;
+}
+
+.logo {
+    width: 17.3vh; height: 17.3vh;
+}
+.header-class {
+   height: 15vh;
+}
+.mobile-dropdown {
+    font-size: 48px;
+}
+.ul-link-sty li {
+    cursor: pointer;
+}
+.body-view{
+    height: 75vh;
+}
+.globe-spinner {
+    height: 50vh;
+    width: 50vh;
+    margin-top: 8vh;
+    background: green;
+    background: url('images/dev-laptop.svg') no-repeat;
+    background-position: center;
+    background-size: 80% 80%;
+}
+
+.wallpaper-bg h1 {
+   text-align: center;
+   margin-top: 18vh;
+   font-size: 6vh;
+   font-family: 'Alfa Slab One', cursive;
+}
+.wallpaper-bg h4 {
+    text-align: center;
+    font-size: 3vh;
+ }
+ .wallpaper-bg p {
+   font-size: 2.5vh;
+   font-weight: 450;
+   text-align: justify;
+ }
+
+.ul-link-sty li a {
+    color: #381c08;
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+.nav-link {
+    padding: 1.15vh 2.30vh;
+}
+
+.ul-link-sty li:hover a{
+    color: #FF4500;
+}
+.active {
+    color: #FF4500 !important;
+}
+.active-hr {
+    height: 0.58vh;
+    background: #FF4500;
+    width: 10.1vh;
+    border-radius: 2.9vh;
+    transition: 1s all ease;
+}
+.ul-link-sty li:hover .active-hr{
+    background: #FF4500;
+    transform: scale(1.003);
+}
+
+.footer {
+    height: 10vh;
+    width: 100%;
+    background: #381c08;
+}
+.footer-content {
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+.talk-to-us {
+    font-weight: 600;
+    background: #FF4500;
+    color: white;
+}
+.talk-to-us:hover {
+    font-weight: 600;
+    color: #381c08;
+    background: white;
+    border: 2px solid #381c08;
+}
+.social {
+    text-align: right;
+}
+.social a {
+    color: white;
+    font-size: 2.5vh;
+    width: 100px;
+    padding: 1vh 1.5vh 1vh 1.5vh;
+    text-decoration: none;
+}
+.social a:hover{
+    color: #FF4500;
+}
+.home-icon {
+    font-size: 3.5vh;
+}
+
+@media(max-width: 1200px) {
+    .wallpaper-bg h1 {
+        margin-top: 10vh;
+        font-size: 5vh;
+     }
+}
+
+@media(max-width: 992px) {
+    .globe-spinner {
+        display: none;
+    }
+    .wallpaper-bg h1 {
+        margin-top: 15vh;
+     }
+}
+
+@media(max-width: 768px) {
+     .social {
+        text-align: center;
+       }
+    .body-view{
+        height: 500px;
+    }
+    .footer {
+       height: 120px;
+    }
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+    .wallpaper-bg h1 {
+        font-size: 5vh;
+     }
+    .wallpaper-bg p {
+        font-size: 14px;
+     }
+}
+
+@media(max-width: 500px) {
+    .home-icon {
+        font-size: 14px;
+    }
+    .active-hr {
+        height: 0.4vh;
+        width: 7.1vh;
+    }
+    .body-view{
+        height: 600px;
+    }
+    .svg-footer {
+        display: none;
+    }
+    .logo {
+        width: 100px; height: 100px;
+    }
+    .mobile-dropdown {
+        font-size: 30px;
+    }
+    .wallpaper-bg h1 {
+        margin-top: 85px;
+        font-size: 30px;
+     }
+    .ul-link-sty li a {
+        font-size: 12px;
+    }
+    .nav-link {
+        padding: 5px 8px;
+    }
+}
+
+@media(max-width: 365px) {
+    .ul-link-sty li a {
+        font-size: 10px;
+    }
+}
