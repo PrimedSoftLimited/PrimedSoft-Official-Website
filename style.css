@@ -27,7 +27,7 @@ select:focus,
   outline: 0 none !important;
 }
 .input-class:focus {
-  border-color:#d61545 !important;
+  border-color:#FF4500 !important;
 }
 
 .scroller{

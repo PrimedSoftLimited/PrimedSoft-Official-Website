@@ -13,14 +13,15 @@
 }
 
 .globe-spinner {
-    height: 50vh;
-    width: 50vh;
     margin-top: 1vh;
     background: none;
 }
 iframe {
     width: 100vh !important;
     height: 50vh !important;
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
 }
 @media(max-width: 768px) {
     .body-view p {
